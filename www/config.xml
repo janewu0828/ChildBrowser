@@ -19,6 +19,7 @@
     <!-- child browser -->
     <gap:plugin name="com.phonegap.plugins.childbrowser" />
     <plugin name="ChildBrowser" value="com.phonegap.plugins.childBrowser.ChildBrowser"/>
+    <feature name="http://plugins.phonegap.com/ChildBrowser/2.0.1" />
 
     <!-- BarcodeScanner -->
     <gap:plugin name="com.phonegap.plugins.barcodescanner" />
