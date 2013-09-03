@@ -431,484 +431,496 @@
 				<div class="tag"><a href="http://womany.net/read/topic/%E5%BF%83%E9%9D%88?ref=side-hot_topics">心靈</a></div>
 
 
-				<script type="text/javascript">
-        // Wait for device API libraries to load
-        document.addEventListener("deviceready", onDeviceReady, false);
-        // device APIs are available
-        function onDeviceReady() {
-          // Empty
-          alert("1");
-          window.plugins.childBrowser.showWebPage("http://www.google.com");
-          alert("2");
+				<!-- <script type="text/javascript">
+    //     // Wait for device API libraries to load
+    //     document.addEventListener("deviceready", onDeviceReady, false);
+    //     // device APIs are available
+    //     function onDeviceReady() {
+    //       // Empty
+    //       alert("1");
+    //       window.plugins.childBrowser.showWebPage("http://www.google.com");
+    //       alert("2");
+    //     }
+
+				// function wow(){
+				// 	window.plugins.childBrowser.showWebPage("http://www.google.com", { showLocationBar: true });
+				// }
+
+				// function wow2(){
+				// 	window.plugins.childBrowser.close();
+				// }
+				 </script>
+         <button onclick="wow()">wow</button>
+         <button onclick="wow2()">wow2</button> -->
+         <h1>Child Browser Demo</h1>
+
+         <a onClick="launchBrowser()" href="#">What does it do?</a>
+         <!-- <script src="phonegap.js"></script>
+          <script src="childbrowser.js"></script> -->
+         <script>
+         function launchBrowser() {
+          alert((window.plugins.childBrowser != undefined) + " should be true")
+          window.plugins.childBrowser.showWebPage('http://www.phonegap.com',
+            { showLocationBar: true });
         }
-
-				function wow(){
-					window.plugins.childBrowser.showWebPage("http://www.google.com", { showLocationBar: true });
-				}
-
-				function wow2(){
-					window.plugins.childBrowser.close();
-				}
-				</script>
-        <button onclick="wow()">wow</button>
-        <button onclick="wow2()">wow2</button>
+        </script>
 
 
-			</div>
-		</div>
-		<div class="span4">
-			<div class="daily-widget">
-				<span>今天是</span>
-				<!-- <span class="font-dincond-light"> 9/3</span> --><br>
-				<span>
-					<a href="http://womany.net/read/article/3285?ref=b-tip">再也不怕時間不夠用的八個提昇效率方法！ <i class="icon-arrow-right"></i></a>
-				</span>
-			</div>
-		</div>
-	</div>
-	<div class="row">
-		<div class="span8">
-			<div class="row">
-				<div class="section-header">
-					<h4><a href="http://womany.net/shop?ref=home">女人迷購物</a> <span>來看看今天我們為你選了什麼迷人的東西</span></h4>
-					<div class="bottom-line"></div>
-				</div>
-				<div class="item-thumb-wrapper" itemscope="" itemtype="http://schema.org/Product">
-					<div class="item-thumb" style="height:250px;">
-						<div class="padding">
+      </div>
+    </div>
+    <div class="span4">
+     <div class="daily-widget">
+      <span>今天是</span>
+      <!-- <span class="font-dincond-light"> 9/3</span> --><br>
+      <span>
+       <a href="http://womany.net/read/article/3285?ref=b-tip">再也不怕時間不夠用的八個提昇效率方法！ <i class="icon-arrow-right"></i></a>
+     </span>
+   </div>
+ </div>
+</div>
+<div class="row">
+  <div class="span8">
+   <div class="row">
+    <div class="section-header">
+     <h4><a href="http://womany.net/shop?ref=home">女人迷購物</a> <span>來看看今天我們為你選了什麼迷人的東西</span></h4>
+     <div class="bottom-line"></div>
+   </div>
+   <div class="item-thumb-wrapper" itemscope="" itemtype="http://schema.org/Product">
+     <div class="item-thumb" style="height:250px;">
+      <div class="padding">
 
-							<div class="item-thumb-featured-image">
-								<a href="http://womany.net/shop/item/1905?ref=hp" itemprop="url">
-									<img src="./main_files/medium_fe3c09b3a4ec30106a8f407e6f4458d3.jpg" alt="時尚女子出列 Girls In A Row" itemprop="image">
-								</a>
-								<div class="item-favorite">
-									<a href="http://womany.net/#" class="favor-without-login js-login-first"><i class="favorite"></i> 0</a>
-								</div>
-							</div>
+       <div class="item-thumb-featured-image">
+        <a href="http://womany.net/shop/item/1905?ref=hp" itemprop="url">
+         <img src="./main_files/medium_fe3c09b3a4ec30106a8f407e6f4458d3.jpg" alt="時尚女子出列 Girls In A Row" itemprop="image">
+       </a>
+       <div class="item-favorite">
+         <a href="http://womany.net/#" class="favor-without-login js-login-first"><i class="favorite"></i> 0</a>
+       </div>
+     </div>
 
-							<div class="info">
-								<div class="name">
-									<a href="http://womany.net/shop/item/1905?ref=hp" itemprop="name">
-										時尚女子出列 Girls In A Row
-									</a>
-								</div>
-								<div class="detail" style="position:absolute; left:5px; bottom:5px; width:180px;">
-									<div class="pull-left" itemprop="brand">
-										Pikka Pikka
-									</div>
-									<div class="price pull-right" itemprop="offers" itemscope="" itemtype="http://schema.org/AggregateOffer">
-										<span itemprop="price">NT $450</span>
-									</div>
-									<div class="clearboth"></div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="item-thumb-wrapper" itemscope="" itemtype="http://schema.org/Product">
-					<div class="item-thumb" style="height:250px;">
-						<div class="padding">
+     <div class="info">
+      <div class="name">
+       <a href="http://womany.net/shop/item/1905?ref=hp" itemprop="name">
+        時尚女子出列 Girls In A Row
+      </a>
+    </div>
+    <div class="detail" style="position:absolute; left:5px; bottom:5px; width:180px;">
+     <div class="pull-left" itemprop="brand">
+      Pikka Pikka
+    </div>
+    <div class="price pull-right" itemprop="offers" itemscope="" itemtype="http://schema.org/AggregateOffer">
+      <span itemprop="price">NT $450</span>
+    </div>
+    <div class="clearboth"></div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+<div class="item-thumb-wrapper" itemscope="" itemtype="http://schema.org/Product">
+ <div class="item-thumb" style="height:250px;">
+  <div class="padding">
 
-							<div class="item-thumb-featured-image">
-								<a href="http://womany.net/shop/item/1087?ref=hp" itemprop="url">
-									<img src="./main_files/medium_5007fd31ac5e1312e0f3b7e1123ad8be.jpg" alt="U2限量收藏組-乾柴烈火" itemprop="image">
-								</a>
-								<div class="flag-discount-41"></div>
-								<div class="item-favorite">
-									<a href="http://womany.net/#" class="favor-without-login js-login-first"><i class="favorite"></i> 0</a>
-								</div>
-							</div>
+   <div class="item-thumb-featured-image">
+    <a href="http://womany.net/shop/item/1087?ref=hp" itemprop="url">
+     <img src="./main_files/medium_5007fd31ac5e1312e0f3b7e1123ad8be.jpg" alt="U2限量收藏組-乾柴烈火" itemprop="image">
+   </a>
+   <div class="flag-discount-41"></div>
+   <div class="item-favorite">
+     <a href="http://womany.net/#" class="favor-without-login js-login-first"><i class="favorite"></i> 0</a>
+   </div>
+ </div>
 
-							<div class="info">
-								<div class="name">
-									<a href="http://womany.net/shop/item/1087?ref=hp" itemprop="name">
-										U2限量收藏組-乾柴烈火
-									</a>
-								</div>
-								<div class="detail" style="position:absolute; left:5px; bottom:5px; width:180px;">
-									<div class="pull-left" itemprop="brand">
-										hoomia 好米亞
-									</div>
-									<div class="price pull-right" itemprop="offers" itemscope="" itemtype="http://schema.org/AggregateOffer">
-										<div style="color:#888; font-size:10px; text-decoration:line-through; line-height:10px;" itemprop="highPrice">
-											NT $2,370
-										</div>
-										<span itemprop="price">NT $990</span>
-									</div>
-									<div class="clearboth"></div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="item-thumb-wrapper" itemscope="" itemtype="http://schema.org/Product">
-					<div class="item-thumb" style="height:250px;">
-						<div class="padding">
+ <div class="info">
+  <div class="name">
+   <a href="http://womany.net/shop/item/1087?ref=hp" itemprop="name">
+    U2限量收藏組-乾柴烈火
+  </a>
+</div>
+<div class="detail" style="position:absolute; left:5px; bottom:5px; width:180px;">
+ <div class="pull-left" itemprop="brand">
+  hoomia 好米亞
+</div>
+<div class="price pull-right" itemprop="offers" itemscope="" itemtype="http://schema.org/AggregateOffer">
+  <div style="color:#888; font-size:10px; text-decoration:line-through; line-height:10px;" itemprop="highPrice">
+   NT $2,370
+ </div>
+ <span itemprop="price">NT $990</span>
+</div>
+<div class="clearboth"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="item-thumb-wrapper" itemscope="" itemtype="http://schema.org/Product">
+ <div class="item-thumb" style="height:250px;">
+  <div class="padding">
 
-							<div class="item-thumb-featured-image">
-								<a href="http://womany.net/shop/item/1053?ref=hp" itemprop="url">
-									<img src="./main_files/medium_e2c2555d9ef1751c5530f8d97d18552f.jpg" alt="腰間抓皺設計花苞短裙" itemprop="image">
-								</a>
-								<div class="flag-discount-90"></div>
-								<div class="item-favorite">
-									<a href="http://womany.net/#" class="favor-without-login js-login-first"><i class="favorite"></i> 1</a>
-								</div>
-							</div>
+   <div class="item-thumb-featured-image">
+    <a href="http://womany.net/shop/item/1053?ref=hp" itemprop="url">
+     <img src="./main_files/medium_e2c2555d9ef1751c5530f8d97d18552f.jpg" alt="腰間抓皺設計花苞短裙" itemprop="image">
+   </a>
+   <div class="flag-discount-90"></div>
+   <div class="item-favorite">
+     <a href="http://womany.net/#" class="favor-without-login js-login-first"><i class="favorite"></i> 1</a>
+   </div>
+ </div>
 
-							<div class="info">
-								<div class="name">
-									<a href="http://womany.net/shop/item/1053?ref=hp" itemprop="name">
-										腰間抓皺設計花苞短裙
-									</a>
-								</div>
-								<div class="detail" style="position:absolute; left:5px; bottom:5px; width:180px;">
-									<div class="pull-left" itemprop="brand">
-										CLOTHPOINT 衣點
-									</div>
-									<div class="price pull-right" itemprop="offers" itemscope="" itemtype="http://schema.org/AggregateOffer">
-										<div style="color:#888; font-size:10px; text-decoration:line-through; line-height:10px;" itemprop="highPrice">
-											NT $1,580
-										</div>
-										<span itemprop="price">NT $1,422</span>
-									</div>
-									<div class="clearboth"></div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="section-header">
-					<h4><a href="http://womany.net/read?ref=home">女人迷閱讀</a> <span>閱讀讓我們打從心底漂亮，看看今日首選文章，讓你更迷人</span></h4>
-					<div class="bottom-line"></div>
-				</div>
-				<div class="span8">
-					<div class="topic-thumb">
-						<div class="topic-image-wrapper">
-							<a href="http://womany.net/read/article/3000?ref=hp">
-								<img src="./main_files/thumb_4d36b47dcd9b399bbc3426de1252d034.jpg" alt="「我只想當個平凡的女人」慰安婦阿嬤一生的痛">
-								<div class="topic-name">心靈, 故事</div>
-							</a>
-						</div>
-						<div class="info">
-							<h4>
-								<a href="http://womany.net/read/article/3000?ref=hp">
-									「我只想當個平凡的女人」慰安婦...
-								</a>
-							</h4>
-							<div>
-								<span class="tag"><a href="http://womany.net/read/topic/%E5%BF%83%E9%9D%88?ref=hp">心靈</a></span>
-								<span class="tag"><a href="http://womany.net/read/topic/%E6%95%85%E4%BA%8B?ref=hp">故事</a></span>
-							</div>
-							<div class="description">
-								去年十二月，某個一如往常的夜晚，喧嚷的新聞幾乎從電視裡溢了出來，一則2分鐘的新聞卻讓一切歸於寂靜，那是一則慰安婦辭世的報導，和一個幾乎被世…
-							</div>
-						</div>
-						<div class="clearboth"></div>
-						<div class="more-btn"><a href="http://womany.net/read/article/3000?ref=hp">more...</a></div>
-					</div>
-				</div>
-				<div class="span8">
-					<div class="topic-thumb">
-						<div class="topic-image-wrapper">
-							<a href="http://womany.net/read/article/3299?ref=hp">
-								<img src="./main_files/thumb_ab1483cb2042602d1753419d76a058b5.jpg" alt="他們，就是比台灣人更懂得享受生活">
-								<div class="topic-name">自我成長, 心靈</div>
-							</a>
-						</div>
-						<div class="info">
-							<h4>
-								<a href="http://womany.net/read/article/3299?ref=hp">
-									他們，就是比台灣人更懂得享受生活
-								</a>
-							</h4>
-							<div>
-								<span class="tag"><a href="http://womany.net/read/topic/%E8%87%AA%E6%88%91%E6%88%90%E9%95%B7?ref=hp">自我成長</a></span>
-								<span class="tag"><a href="http://womany.net/read/topic/%E5%BF%83%E9%9D%88?ref=hp">心靈</a></span>
-							</div>
-							<div class="description">
-								womany編按：常被時間壓得喘不過氣來嗎？生活跟工作你其實可以兼顧，適時給自己一點時間休息一下吧，試試11個有效提升工作效率的方法，勇敢…
-							</div>
-						</div>
-						<div class="clearboth"></div>
-						<div class="more-btn"><a href="http://womany.net/read/article/3299?ref=hp">more...</a></div>
-					</div>
-				</div>
-				<div class="span8">
-					<div class="topic-thumb">
-						<div class="topic-image-wrapper">
-							<a href="http://womany.net/read/article/727?ref=hp">
-								<img src="./main_files/thumb_7c2ecc8af859a8415909ad51ed403d39" alt="早秋行頭盤點 復古風尚">
-								<div class="topic-name">穿搭, 流行趨勢</div>
-							</a>
-						</div>
-						<div class="info">
-							<h4>
-								<a href="http://womany.net/read/article/727?ref=hp">
-									早秋行頭盤點 復古風尚
-								</a>
-							</h4>
-							<div>
-								<span class="tag"><a href="http://womany.net/read/topic/%E7%A9%BF%E6%90%AD?ref=hp">穿搭</a></span>
-								<span class="tag"><a href="http://womany.net/read/topic/%E6%B5%81%E8%A1%8C%E8%B6%A8%E5%8B%A2?ref=hp">流行趨勢</a></span>
-							</div>
-							<div class="description">
-								秋冬季節交替之際，秋冬單品早早已翻新各家櫥窗，復古依舊發燒，持續迷戀復古風潮吧。開場先以最近網路上很夯的影片來分享：一分鐘濃縮時裝百年經典…
-							</div>
-						</div>
-						<div class="clearboth"></div>
-						<div class="more-btn"><a href="http://womany.net/read/article/727?ref=hp">more...</a></div>
-					</div>
-				</div>
-				<div class="span8">
-					<div class="topic-thumb">
-						<div class="flag-new"></div>
-						<div class="topic-image-wrapper">
-							<a href="http://womany.net/read/article/3252?ref=hp">
-								<img src="./main_files/thumb_7e049cd7f5698ea1c0c58b8279e10289.jpg" alt="人人是媒體的時代，你的媒體原則是什麼？">
-								<div class="topic-name">國家</div>
-							</a>
-						</div>
-						<div class="info">
-							<h4>
-								<a href="http://womany.net/read/article/3252?ref=hp">
-									人人是媒體的時代，你的媒體原則...
-								</a>
-							</h4>
-							<div>
-								<span class="tag"><a href="http://womany.net/read/topic/%E5%9C%8B%E5%AE%B6?ref=hp">國家</a></span>
-							</div>
-							<div class="description">
-								womany 編按：在這個媒體爆炸的世代，每個人都能夠成為資訊的來源，聲音一多，事實與真相就會開始模糊不清。這個人人是媒體的年代裡，你的媒…
-							</div>
-						</div>
-						<div class="clearboth"></div>
-						<div class="more-btn"><a href="http://womany.net/read/article/3252?ref=hp">more...</a></div>
-					</div>
-				</div>
-				<div class="span8">
-					<div class="topic-thumb">
-						<div class="flag-new"></div>
-						<div class="topic-image-wrapper">
-							<a href="http://womany.net/read/article/3323?ref=hp">
-								<img src="./main_files/thumb_41958ef7e23db7b09c2eed11a68e306d.jpg" alt="天然保養品也可能傷害肌膚">
-								<div class="topic-name">美容, 女性保健</div>
-							</a>
-						</div>
-						<div class="info">
-							<h4>
-								<a href="http://womany.net/read/article/3323?ref=hp">
-									天然保養品也可能傷害肌膚
-								</a>
-							</h4>
-							<div>
-								<span class="tag"><a href="http://womany.net/read/topic/%E7%BE%8E%E5%AE%B9?ref=hp">美容</a></span>
-								<span class="tag"><a href="http://womany.net/read/topic/%E5%A5%B3%E6%80%A7%E4%BF%9D%E5%81%A5?ref=hp">女性保健</a></span>
-							</div>
-							<div class="description">
-								womany編按：天然的保養品真的最好嗎？womany 特約作者Carol Sun總是帶給我們最正確的保養知識，像是那些你一定要知道的九個…
-							</div>
-						</div>
-						<div class="clearboth"></div>
-						<div class="more-btn"><a href="http://womany.net/read/article/3323?ref=hp">more...</a></div>
-					</div>
-				</div>
-				<div class="span8">
-					<div class="topic-thumb">
-						<div class="flag-new"></div>
-						<div class="topic-image-wrapper">
-							<a href="http://womany.net/read/article/3304?ref=hp">
-								<img src="./main_files/thumb_bd9f940c1b61a224e4ebede3117d4293.jpg" alt="中性：超越性別的美">
-								<div class="topic-name">故事</div>
-							</a>
-						</div>
-						<div class="info">
-							<h4>
-								<a href="http://womany.net/read/article/3304?ref=hp">
-									中性：超越性別的美
-								</a>
-							</h4>
-							<div>
-								<span class="tag"><a href="http://womany.net/read/topic/%E6%95%85%E4%BA%8B?ref=hp">故事</a></span>
-							</div>
-							<div class="description">
-								說到男人，直覺會聯想到的是帥氣的型男還是斯文的書生型男孩？而提到女人，腦中又會浮現出怎樣的意象呢？其實性別（ gender ） 是一種被社…
-							</div>
-						</div>
-						<div class="clearboth"></div>
-						<div class="more-btn"><a href="http://womany.net/read/article/3304?ref=hp">more...</a></div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="span4">
-			<div style="margin-bottom:20px; margin-top:12px;">
-				<h4 style="font-size:12px; margin-bottom:10px; color:#BBB;">女人迷說說：讓我們一起討論吧</h4>
-				<div class="debate-thumb" itemscope="" itemtype="http://schema.org/Article">
-					<div class="padding">
-						<a href="http://womany.net/debates/15" itemprop="url"><img alt="分手後會怎麼處理舊情人送你的物品？" itemprop="image" src="./main_files/thumb_120a22321998d1b4da0bc6a5b90a27cf.jpg"></a>
-						<div class="title" itemprop="name"><a href="http://womany.net/debates/15" itemprop="url">分手後會怎麼處理舊情人送你的物品？</a></div>
-						<div class="description" itemprop="description">
-							愛情的終點不是相守到老，就是分手離開，除了得將自己的心打包、將愛收拾以外，那些曾經擁有的物品該...
-						</div>
-						<div class="people-count">
-							<div class="pull-left">0% 人</div>
-							<div class="pull-right">100% 人</div>
-							<div class="clearboth"></div>
-						</div>
-						<div class="people-bar">
-							<div class="people-bar-inner" style="width:0%;"></div>
-						</div>
-						<div class="debate-people-data">
-							<div class="care">5 人關心</div>
-							<div class="discuss">0 人討論</div>
-							<div class="join">0 人投票</div>
-							<div class="clearboth"></div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="line-box">
-				<div class="padding">
-					<h4>來瞧瞧最近最熱門的話題：</h4>
-					<div class="list">
-						<ol>
-							<li>
-								<a href="http://womany.net/read/topic/%E6%80%A7%E6%8A%80%E5%B7%A7%20(18%E7%A6%81)?ref=side-weekly_topic">性技巧 (18禁)</a>
-								<i class="icon-arrow-right pull-right"></i>
-							</li>
-							<li>
-								<a href="http://womany.net/read/topic/%E5%BF%83%E9%9D%88?ref=side-weekly_topic">心靈</a>
-								<i class="icon-arrow-right pull-right"></i>
-							</li>
-							<li>
-								<a href="http://womany.net/read/topic/%E6%83%85%E4%BA%BA?ref=side-weekly_topic">情人</a>
-								<i class="icon-arrow-right pull-right"></i>
-							</li>
-							<li>
-								<a href="http://womany.net/read/topic/%E5%96%AE%E8%BA%AB?ref=side-weekly_topic">單身</a>
-								<i class="icon-arrow-right pull-right"></i>
-							</li>
-							<li>
-								<a href="http://womany.net/read/topic/%E7%BE%8E%E5%AE%B9%E4%BF%9D%E9%A4%8A?ref=side-weekly_topic">美容保養</a>
-								<i class="icon-arrow-up pull-right"></i>
-							</li>
-							<li>
-								<a href="http://womany.net/read/topic/%E5%91%BD%E7%90%86?ref=side-weekly_topic">命理</a>
-								<i class="icon-arrow-down pull-right"></i>
-							</li>
-							<li>
-								<a href="http://womany.net/read/topic/%E7%B4%84%E6%9C%83?ref=side-weekly_topic">約會</a>
-								<i class="icon-arrow-up pull-right"></i>
-							</li>
-							<li>
-								<a href="http://womany.net/read/topic/%E4%B8%BB%E9%A1%8C%E6%97%85%E9%81%8A?ref=side-weekly_topic">主題旅遊</a>
-								<i class="icon-arrow-down pull-right"></i>
-							</li>
-							<li>
-								<a href="http://womany.net/read/topic/%E6%95%85%E4%BA%8B?ref=side-weekly_topic">故事</a>
-								<i class="icon-arrow-down pull-right"></i>
-							</li>
-							<li>
-								<a href="http://womany.net/read/topic/%E8%87%AA%E6%88%91%E6%88%90%E9%95%B7?ref=side-weekly_topic">自我成長</a>
-								<i class="icon-arrow-up pull-right"></i>
-							</li>
-						</ol>
-					</div>
-				</div>
-			</div>
-			<div class="line-box">
-				<div class="padding" style="padding-bottom:0px;">
-					<div>
-						<h4 class="pull-left">精選品牌－<a href="http://womany.net/shop/brand/JumpFromPaper?ref=side-daily_brand">JumpFromPaper</a></h4>
-						<div class="clearboth"></div>
-					</div>
-					<div class="suggest-brand-box">
-						<div class="brand-image-wrapper">
-							<a href="http://womany.net/shop/brand/JumpFromPaper?ref=side-daily_brand">
-								<img src="./main_files/small_613d53912ee60c98036c3f0163b82ee9.jpg" alt="JumpFromPaper" width="308">
-							</a>
-							<div class="left-decorator"></div><div class="right-decorator"></div>
-						</div>
-					</div>
-				</div>
-			</div>
+ <div class="info">
+  <div class="name">
+   <a href="http://womany.net/shop/item/1053?ref=hp" itemprop="name">
+    腰間抓皺設計花苞短裙
+  </a>
+</div>
+<div class="detail" style="position:absolute; left:5px; bottom:5px; width:180px;">
+ <div class="pull-left" itemprop="brand">
+  CLOTHPOINT 衣點
+</div>
+<div class="price pull-right" itemprop="offers" itemscope="" itemtype="http://schema.org/AggregateOffer">
+  <div style="color:#888; font-size:10px; text-decoration:line-through; line-height:10px;" itemprop="highPrice">
+   NT $1,580
+ </div>
+ <span itemprop="price">NT $1,422</span>
+</div>
+<div class="clearboth"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+  <div class="section-header">
+   <h4><a href="http://womany.net/read?ref=home">女人迷閱讀</a> <span>閱讀讓我們打從心底漂亮，看看今日首選文章，讓你更迷人</span></h4>
+   <div class="bottom-line"></div>
+ </div>
+ <div class="span8">
+   <div class="topic-thumb">
+    <div class="topic-image-wrapper">
+     <a href="http://womany.net/read/article/3000?ref=hp">
+      <img src="./main_files/thumb_4d36b47dcd9b399bbc3426de1252d034.jpg" alt="「我只想當個平凡的女人」慰安婦阿嬤一生的痛">
+      <div class="topic-name">心靈, 故事</div>
+    </a>
+  </div>
+  <div class="info">
+   <h4>
+    <a href="http://womany.net/read/article/3000?ref=hp">
+     「我只想當個平凡的女人」慰安婦...
+   </a>
+ </h4>
+ <div>
+  <span class="tag"><a href="http://womany.net/read/topic/%E5%BF%83%E9%9D%88?ref=hp">心靈</a></span>
+  <span class="tag"><a href="http://womany.net/read/topic/%E6%95%85%E4%BA%8B?ref=hp">故事</a></span>
+</div>
+<div class="description">
+  去年十二月，某個一如往常的夜晚，喧嚷的新聞幾乎從電視裡溢了出來，一則2分鐘的新聞卻讓一切歸於寂靜，那是一則慰安婦辭世的報導，和一個幾乎被世…
+</div>
+</div>
+<div class="clearboth"></div>
+<div class="more-btn"><a href="http://womany.net/read/article/3000?ref=hp">more...</a></div>
+</div>
+</div>
+<div class="span8">
+ <div class="topic-thumb">
+  <div class="topic-image-wrapper">
+   <a href="http://womany.net/read/article/3299?ref=hp">
+    <img src="./main_files/thumb_ab1483cb2042602d1753419d76a058b5.jpg" alt="他們，就是比台灣人更懂得享受生活">
+    <div class="topic-name">自我成長, 心靈</div>
+  </a>
+</div>
+<div class="info">
+ <h4>
+  <a href="http://womany.net/read/article/3299?ref=hp">
+   他們，就是比台灣人更懂得享受生活
+ </a>
+</h4>
+<div>
+  <span class="tag"><a href="http://womany.net/read/topic/%E8%87%AA%E6%88%91%E6%88%90%E9%95%B7?ref=hp">自我成長</a></span>
+  <span class="tag"><a href="http://womany.net/read/topic/%E5%BF%83%E9%9D%88?ref=hp">心靈</a></span>
+</div>
+<div class="description">
+  womany編按：常被時間壓得喘不過氣來嗎？生活跟工作你其實可以兼顧，適時給自己一點時間休息一下吧，試試11個有效提升工作效率的方法，勇敢…
+</div>
+</div>
+<div class="clearboth"></div>
+<div class="more-btn"><a href="http://womany.net/read/article/3299?ref=hp">more...</a></div>
+</div>
+</div>
+<div class="span8">
+ <div class="topic-thumb">
+  <div class="topic-image-wrapper">
+   <a href="http://womany.net/read/article/727?ref=hp">
+    <img src="./main_files/thumb_7c2ecc8af859a8415909ad51ed403d39" alt="早秋行頭盤點 復古風尚">
+    <div class="topic-name">穿搭, 流行趨勢</div>
+  </a>
+</div>
+<div class="info">
+ <h4>
+  <a href="http://womany.net/read/article/727?ref=hp">
+   早秋行頭盤點 復古風尚
+ </a>
+</h4>
+<div>
+  <span class="tag"><a href="http://womany.net/read/topic/%E7%A9%BF%E6%90%AD?ref=hp">穿搭</a></span>
+  <span class="tag"><a href="http://womany.net/read/topic/%E6%B5%81%E8%A1%8C%E8%B6%A8%E5%8B%A2?ref=hp">流行趨勢</a></span>
+</div>
+<div class="description">
+  秋冬季節交替之際，秋冬單品早早已翻新各家櫥窗，復古依舊發燒，持續迷戀復古風潮吧。開場先以最近網路上很夯的影片來分享：一分鐘濃縮時裝百年經典…
+</div>
+</div>
+<div class="clearboth"></div>
+<div class="more-btn"><a href="http://womany.net/read/article/727?ref=hp">more...</a></div>
+</div>
+</div>
+<div class="span8">
+ <div class="topic-thumb">
+  <div class="flag-new"></div>
+  <div class="topic-image-wrapper">
+   <a href="http://womany.net/read/article/3252?ref=hp">
+    <img src="./main_files/thumb_7e049cd7f5698ea1c0c58b8279e10289.jpg" alt="人人是媒體的時代，你的媒體原則是什麼？">
+    <div class="topic-name">國家</div>
+  </a>
+</div>
+<div class="info">
+ <h4>
+  <a href="http://womany.net/read/article/3252?ref=hp">
+   人人是媒體的時代，你的媒體原則...
+ </a>
+</h4>
+<div>
+  <span class="tag"><a href="http://womany.net/read/topic/%E5%9C%8B%E5%AE%B6?ref=hp">國家</a></span>
+</div>
+<div class="description">
+  womany 編按：在這個媒體爆炸的世代，每個人都能夠成為資訊的來源，聲音一多，事實與真相就會開始模糊不清。這個人人是媒體的年代裡，你的媒…
+</div>
+</div>
+<div class="clearboth"></div>
+<div class="more-btn"><a href="http://womany.net/read/article/3252?ref=hp">more...</a></div>
+</div>
+</div>
+<div class="span8">
+ <div class="topic-thumb">
+  <div class="flag-new"></div>
+  <div class="topic-image-wrapper">
+   <a href="http://womany.net/read/article/3323?ref=hp">
+    <img src="./main_files/thumb_41958ef7e23db7b09c2eed11a68e306d.jpg" alt="天然保養品也可能傷害肌膚">
+    <div class="topic-name">美容, 女性保健</div>
+  </a>
+</div>
+<div class="info">
+ <h4>
+  <a href="http://womany.net/read/article/3323?ref=hp">
+   天然保養品也可能傷害肌膚
+ </a>
+</h4>
+<div>
+  <span class="tag"><a href="http://womany.net/read/topic/%E7%BE%8E%E5%AE%B9?ref=hp">美容</a></span>
+  <span class="tag"><a href="http://womany.net/read/topic/%E5%A5%B3%E6%80%A7%E4%BF%9D%E5%81%A5?ref=hp">女性保健</a></span>
+</div>
+<div class="description">
+  womany編按：天然的保養品真的最好嗎？womany 特約作者Carol Sun總是帶給我們最正確的保養知識，像是那些你一定要知道的九個…
+</div>
+</div>
+<div class="clearboth"></div>
+<div class="more-btn"><a href="http://womany.net/read/article/3323?ref=hp">more...</a></div>
+</div>
+</div>
+<div class="span8">
+ <div class="topic-thumb">
+  <div class="flag-new"></div>
+  <div class="topic-image-wrapper">
+   <a href="http://womany.net/read/article/3304?ref=hp">
+    <img src="./main_files/thumb_bd9f940c1b61a224e4ebede3117d4293.jpg" alt="中性：超越性別的美">
+    <div class="topic-name">故事</div>
+  </a>
+</div>
+<div class="info">
+ <h4>
+  <a href="http://womany.net/read/article/3304?ref=hp">
+   中性：超越性別的美
+ </a>
+</h4>
+<div>
+  <span class="tag"><a href="http://womany.net/read/topic/%E6%95%85%E4%BA%8B?ref=hp">故事</a></span>
+</div>
+<div class="description">
+  說到男人，直覺會聯想到的是帥氣的型男還是斯文的書生型男孩？而提到女人，腦中又會浮現出怎樣的意象呢？其實性別（ gender ） 是一種被社…
+</div>
+</div>
+<div class="clearboth"></div>
+<div class="more-btn"><a href="http://womany.net/read/article/3304?ref=hp">more...</a></div>
+</div>
+</div>
+</div>
+</div>
+<div class="span4">
+ <div style="margin-bottom:20px; margin-top:12px;">
+  <h4 style="font-size:12px; margin-bottom:10px; color:#BBB;">女人迷說說：讓我們一起討論吧</h4>
+  <div class="debate-thumb" itemscope="" itemtype="http://schema.org/Article">
+   <div class="padding">
+    <a href="http://womany.net/debates/15" itemprop="url"><img alt="分手後會怎麼處理舊情人送你的物品？" itemprop="image" src="./main_files/thumb_120a22321998d1b4da0bc6a5b90a27cf.jpg"></a>
+    <div class="title" itemprop="name"><a href="http://womany.net/debates/15" itemprop="url">分手後會怎麼處理舊情人送你的物品？</a></div>
+    <div class="description" itemprop="description">
+     愛情的終點不是相守到老，就是分手離開，除了得將自己的心打包、將愛收拾以外，那些曾經擁有的物品該...
+   </div>
+   <div class="people-count">
+     <div class="pull-left">0% 人</div>
+     <div class="pull-right">100% 人</div>
+     <div class="clearboth"></div>
+   </div>
+   <div class="people-bar">
+     <div class="people-bar-inner" style="width:0%;"></div>
+   </div>
+   <div class="debate-people-data">
+     <div class="care">5 人關心</div>
+     <div class="discuss">0 人討論</div>
+     <div class="join">0 人投票</div>
+     <div class="clearboth"></div>
+   </div>
+ </div>
+</div>
+</div>
+<div class="line-box">
+  <div class="padding">
+   <h4>來瞧瞧最近最熱門的話題：</h4>
+   <div class="list">
+    <ol>
+     <li>
+      <a href="http://womany.net/read/topic/%E6%80%A7%E6%8A%80%E5%B7%A7%20(18%E7%A6%81)?ref=side-weekly_topic">性技巧 (18禁)</a>
+      <i class="icon-arrow-right pull-right"></i>
+    </li>
+    <li>
+      <a href="http://womany.net/read/topic/%E5%BF%83%E9%9D%88?ref=side-weekly_topic">心靈</a>
+      <i class="icon-arrow-right pull-right"></i>
+    </li>
+    <li>
+      <a href="http://womany.net/read/topic/%E6%83%85%E4%BA%BA?ref=side-weekly_topic">情人</a>
+      <i class="icon-arrow-right pull-right"></i>
+    </li>
+    <li>
+      <a href="http://womany.net/read/topic/%E5%96%AE%E8%BA%AB?ref=side-weekly_topic">單身</a>
+      <i class="icon-arrow-right pull-right"></i>
+    </li>
+    <li>
+      <a href="http://womany.net/read/topic/%E7%BE%8E%E5%AE%B9%E4%BF%9D%E9%A4%8A?ref=side-weekly_topic">美容保養</a>
+      <i class="icon-arrow-up pull-right"></i>
+    </li>
+    <li>
+      <a href="http://womany.net/read/topic/%E5%91%BD%E7%90%86?ref=side-weekly_topic">命理</a>
+      <i class="icon-arrow-down pull-right"></i>
+    </li>
+    <li>
+      <a href="http://womany.net/read/topic/%E7%B4%84%E6%9C%83?ref=side-weekly_topic">約會</a>
+      <i class="icon-arrow-up pull-right"></i>
+    </li>
+    <li>
+      <a href="http://womany.net/read/topic/%E4%B8%BB%E9%A1%8C%E6%97%85%E9%81%8A?ref=side-weekly_topic">主題旅遊</a>
+      <i class="icon-arrow-down pull-right"></i>
+    </li>
+    <li>
+      <a href="http://womany.net/read/topic/%E6%95%85%E4%BA%8B?ref=side-weekly_topic">故事</a>
+      <i class="icon-arrow-down pull-right"></i>
+    </li>
+    <li>
+      <a href="http://womany.net/read/topic/%E8%87%AA%E6%88%91%E6%88%90%E9%95%B7?ref=side-weekly_topic">自我成長</a>
+      <i class="icon-arrow-up pull-right"></i>
+    </li>
+  </ol>
+</div>
+</div>
+</div>
+<div class="line-box">
+  <div class="padding" style="padding-bottom:0px;">
+   <div>
+    <h4 class="pull-left">精選品牌－<a href="http://womany.net/shop/brand/JumpFromPaper?ref=side-daily_brand">JumpFromPaper</a></h4>
+    <div class="clearboth"></div>
+  </div>
+  <div class="suggest-brand-box">
+    <div class="brand-image-wrapper">
+     <a href="http://womany.net/shop/brand/JumpFromPaper?ref=side-daily_brand">
+      <img src="./main_files/small_613d53912ee60c98036c3f0163b82ee9.jpg" alt="JumpFromPaper" width="308">
+    </a>
+    <div class="left-decorator"></div><div class="right-decorator"></div>
+  </div>
+</div>
+</div>
+</div>
 
-			<div class="line-box">
-				<div class="padding">
-					<h4>新商品上架</h4>
-					<div class="list">
-						<div class="related-product">
-							<div class="related-product-image">
-								<a href="http://womany.net/shop/item/1917?ref=hpnew">
-									<img src="./main_files/medium_db936b15cc3f5f69a8ea4a9c4f099b6f.jpg" alt="【禮盒系列】山味書屋 雙囍入（不撓+鍾情）">
-								</a>
-							</div>
-							<div class="related-product-info">
-								<div class="name">
-									<a href="http://womany.net/shop/item/1917?ref=hpnew">【禮盒系列】山味書屋 雙囍入（不撓+鍾情）</a>
-								</div>
-								<div class="brand">山生有幸</div>
-								<div class="price">NT $759</div>
-								<div class="clearboth"></div>
-								<div class="button-set">
-									<a href="http://womany.net/favorites?count=0&favable_id=1917&favable_type=Product" class="favor-link" data-favor-id="1917" data-favor-type="Product" data-method="post" data-remote="true" rel="nofollow"><i class="favorite"></i> 0</a>
-									<a href="http://womany.net/shop/item/1917#comments"><i class="comment"></i> 0</a>
-								</div>
-							</div>
-							<div class="clearboth"></div>
-						</div>
-						<div class="related-product">
-							<div class="related-product-image">
-								<a href="http://womany.net/shop/item/1916?ref=hpnew">
-									<img src="./main_files/medium_84741a20ae4f94c7042b58e48afbd7d5.jpg" alt="【禮盒系列】山味書屋 雙囍入（不撓+鄉愁）">
-								</a>
-							</div>
-							<div class="related-product-info">
-								<div class="name">
-									<a href="http://womany.net/shop/item/1916?ref=hpnew">【禮盒系列】山味書屋 雙囍入（不撓+鄉愁）</a>
-								</div>
-								<div class="brand">山生有幸</div>
-								<div class="price">NT $759</div>
-								<div class="clearboth"></div>
-								<div class="button-set">
-									<a href="http://womany.net/#" class="favor-without-login js-login-first"><i class="favorite"></i> 0</a>
-									<a href="http://womany.net/shop/item/1916#comments"><i class="comment"></i> 0</a>
-								</div>
-							</div>
-							<div class="clearboth"></div>
-						</div>
-						<div class="related-product">
-							<div class="related-product-image">
-								<a href="http://womany.net/shop/item/1914?ref=hpnew">
-									<img src="./main_files/medium_6caa6400fc6eeaa5558dbbc07969ace0.jpg" alt="【山生有幸 禮盒系列】山味書屋 雙囍入">
-								</a>
-							</div>
-							<div class="related-product-info">
-								<div class="name">
-									<a href="http://womany.net/shop/item/1914?ref=hpnew">【山生有幸 禮盒系列】山味書屋 雙囍入</a>
-								</div>
-								<div class="brand">山生有幸</div>
-								<div class="price">NT $899</div>
-								<div class="clearboth"></div>
-								<div class="button-set">
-									<a href="http://womany.net/#" class="favor-without-login js-login-first"><i class="favorite"></i> 0</a>
-									<a href="http://womany.net/shop/item/1914#comments"><i class="comment"></i> 0</a>
-								</div>
-							</div>
-							<div class="clearboth"></div>
-						</div>
-					</div>
-					<div class="link">
-						<a href="http://womany.net/shop?ref=hpnew">
-							看更多 <i class="icon-arrow-right"></i>
-						</a>
-					</div>
-				</div>
-			</div> 
-		</div>
-	</div>
+<div class="line-box">
+  <div class="padding">
+   <h4>新商品上架</h4>
+   <div class="list">
+    <div class="related-product">
+     <div class="related-product-image">
+      <a href="http://womany.net/shop/item/1917?ref=hpnew">
+       <img src="./main_files/medium_db936b15cc3f5f69a8ea4a9c4f099b6f.jpg" alt="【禮盒系列】山味書屋 雙囍入（不撓+鍾情）">
+     </a>
+   </div>
+   <div class="related-product-info">
+    <div class="name">
+     <a href="http://womany.net/shop/item/1917?ref=hpnew">【禮盒系列】山味書屋 雙囍入（不撓+鍾情）</a>
+   </div>
+   <div class="brand">山生有幸</div>
+   <div class="price">NT $759</div>
+   <div class="clearboth"></div>
+   <div class="button-set">
+     <a href="http://womany.net/favorites?count=0&favable_id=1917&favable_type=Product" class="favor-link" data-favor-id="1917" data-favor-type="Product" data-method="post" data-remote="true" rel="nofollow"><i class="favorite"></i> 0</a>
+     <a href="http://womany.net/shop/item/1917#comments"><i class="comment"></i> 0</a>
+   </div>
+ </div>
+ <div class="clearboth"></div>
+</div>
+<div class="related-product">
+ <div class="related-product-image">
+  <a href="http://womany.net/shop/item/1916?ref=hpnew">
+   <img src="./main_files/medium_84741a20ae4f94c7042b58e48afbd7d5.jpg" alt="【禮盒系列】山味書屋 雙囍入（不撓+鄉愁）">
+ </a>
+</div>
+<div class="related-product-info">
+  <div class="name">
+   <a href="http://womany.net/shop/item/1916?ref=hpnew">【禮盒系列】山味書屋 雙囍入（不撓+鄉愁）</a>
+ </div>
+ <div class="brand">山生有幸</div>
+ <div class="price">NT $759</div>
+ <div class="clearboth"></div>
+ <div class="button-set">
+   <a href="http://womany.net/#" class="favor-without-login js-login-first"><i class="favorite"></i> 0</a>
+   <a href="http://womany.net/shop/item/1916#comments"><i class="comment"></i> 0</a>
+ </div>
+</div>
+<div class="clearboth"></div>
+</div>
+<div class="related-product">
+ <div class="related-product-image">
+  <a href="http://womany.net/shop/item/1914?ref=hpnew">
+   <img src="./main_files/medium_6caa6400fc6eeaa5558dbbc07969ace0.jpg" alt="【山生有幸 禮盒系列】山味書屋 雙囍入">
+ </a>
+</div>
+<div class="related-product-info">
+  <div class="name">
+   <a href="http://womany.net/shop/item/1914?ref=hpnew">【山生有幸 禮盒系列】山味書屋 雙囍入</a>
+ </div>
+ <div class="brand">山生有幸</div>
+ <div class="price">NT $899</div>
+ <div class="clearboth"></div>
+ <div class="button-set">
+   <a href="http://womany.net/#" class="favor-without-login js-login-first"><i class="favorite"></i> 0</a>
+   <a href="http://womany.net/shop/item/1914#comments"><i class="comment"></i> 0</a>
+ </div>
+</div>
+<div class="clearboth"></div>
+</div>
+</div>
+<div class="link">
+  <a href="http://womany.net/shop?ref=hpnew">
+   看更多 <i class="icon-arrow-right"></i>
+ </a>
+</div>
+</div>
+</div> 
+</div>
+</div>
 </div>
 <div class="people-wrapper">
 	<div class="container">
