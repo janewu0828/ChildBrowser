@@ -7,8 +7,8 @@
 <script type="text/javascript" charset="utf-8" src="cordova.js" ></script>
 <!-- using plugins -->
 <script type="text/javascript" charset="utf-8" src="phonegap.js"></script>
-<!-- <script type="text/javascript" charset="utf-8" src="childbrowser.js"></script> -->
-<script src="Plugins/Child Browser/childbrowser.js"></script>
+<script type="text/javascript" charset="utf-8" src="childbrowser.js"></script>
+<!-- <script src="Plugins/Child Browser/childbrowser.js"></script> -->
 
 
 <!-- <script type="application/javascript" async="" defer="" src="./main_files/track.js"></script> --><script type="text/javascript" async="" src="./main_files/Zg0V1iNwkJY9eu7zQyoEg.js"></script><script type="text/javascript" async="" src="./main_files/ga.js"></script><script type="text/javascript" async="" src="./main_files/atrk.js"></script><script type="text/javascript">var NREUMQ=NREUMQ||[];NREUMQ.push(["mark","firstbyte",new Date().getTime()]);</script>
@@ -431,13 +431,13 @@
 				<div class="tag"><a href="http://womany.net/read/topic/%E5%BF%83%E9%9D%88?ref=side-hot_topics">心靈</a></div>
 
 
-				<div id="data">loading ...</div>
+				
 				<button onclick="wow()">wow</button>
 				<button onclick="wow2()">wow2</button>
 				<script type="text/javascript">
 				function onDeviceReady() {
 					alert("1");
-					window.plugins.childBrowser.showWebPage("http://www.google.com");
+					window.plugins.childBrowser.showWebPage("http://www.google.com", { showLocationBar: true });
 					//document.getElementById('data').innerHTML = "";
 					alert("2");
 				}
